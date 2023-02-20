@@ -14,7 +14,7 @@
 .admin-wrapper .sidebar ul .simple-navigation-active-leaf a,
 .content__heading__actions button,
 span.poll__chart.leading {
-    background: var(--accent-colour) !important;
+    background: var(--accent) !important;
 }
 .compose-form__publish button.button:hover,
 .account__header__bar button.button:hover,
@@ -24,7 +24,7 @@ span.poll__chart.leading {
 .dropdown-menu__item a:hover,
 .admin-wrapper .sidebar ul .simple-navigation-active-leaf a:hover,
 .content__heading__actions button:hover { 
-    background: var(--accent-colour-hov) !important;
+    background: var(--accent-hov) !important;
 }
 
 .account__header__bio .account__header__fields a,
@@ -33,11 +33,11 @@ span.poll__chart.leading {
 .column-back-button,
 .column-link--transparent.active,
 .column-header__back-button {
-    color: var(--accent-colour) !important;
+    color: var(--accent) !important;
 }
 
 .trends__item__sparkline path:last-child {
-    stroke: var(--accent-colour) !important;
+    stroke: var(--accent) !important;
 }
 .trends__item__sparkline path:first-child {
     fill: rgba(140,255,140,.25) !important
@@ -47,7 +47,7 @@ span.poll__chart.leading {
     color: #9baec8;
 }
 .admin-wrapper .sidebar ul:hover a[href="/auth/sign_out"] {
-    color: var(--danger-colour);
+    color: var(--danger);
 }
 
 img[alt*="blobfox"] {
