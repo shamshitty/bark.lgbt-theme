@@ -55,8 +55,8 @@ img[alt*="blobfox"] {
 }
 
 button.icon-button i.fa-retweet {
-    background-image: url("./boost.svg");
+    background-image: url("./assets/boost.svg");
 }
 button.icon-button:hover i.fa-retweet {
-    background-image: url("./boost_hover.svg");
+    background-image: url("./assets/boost_hover.svg");
 }
