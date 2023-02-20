@@ -1,0 +1,62 @@
+:root {
+    --accent: #5a5;
+    --accent-hov: #5b5;
+    --danger: #f00;
+    --danger-hov: #e00;
+}
+
+
+.compose-form__publish button.button,
+.account__header__bar button.button,
+.simple_form .block-button,
+.simple_form .button,
+.simple_form button,
+.admin-wrapper .sidebar ul .simple-navigation-active-leaf a,
+.content__heading__actions button,
+span.poll__chart.leading {
+    background: var(--accent-colour) !important;
+}
+.compose-form__publish button.button:hover,
+.account__header__bar button.button:hover,
+.simple_form .block-button:hover,
+.simple_form .button:hover,
+.simple_form button:hover:hover,
+.dropdown-menu__item a:hover,
+.admin-wrapper .sidebar ul .simple-navigation-active-leaf a:hover,
+.content__heading__actions button:hover { 
+    background: var(--accent-colour-hov) !important;
+}
+
+.account__header__bio .account__header__fields a,
+[aria-label="Unboost"] .fa.fa-retweet.fa-fw,
+.status__content__read-more-button,
+.column-back-button,
+.column-link--transparent.active,
+.column-header__back-button {
+    color: var(--accent-colour) !important;
+}
+
+.trends__item__sparkline path:last-child {
+    stroke: var(--accent-colour) !important;
+}
+.trends__item__sparkline path:first-child {
+    fill: rgba(140,255,140,.25) !important
+}
+
+.admin-wrapper .sidebar ul a[href="/auth/sign_out"] {
+    color: #9baec8;
+}
+.admin-wrapper .sidebar ul:hover a[href="/auth/sign_out"] {
+    color: var(--danger-colour);
+}
+
+img[alt*="blobfox"] {
+    cursor: grabbing !important;
+}
+
+button.icon-button i.fa-retweet {
+    background-image: url("./boost.svg");
+}
+button.icon-button:hover i.fa-retweet {
+    background-image: url("./boost_hover.svg");
+}
