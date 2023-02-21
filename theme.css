@@ -28,7 +28,10 @@ span.poll__chart.leading {
 }
 
 .account__header__bio .account__header__fields a,
-[aria-label="Unboost"] .fa.fa-retweet.fa-fw,
+[aria-label="Unboost"] .fa-retweet,
+.notification__message .fa-retweet,
+.notification__message .fa-user-plus,
+.notification__message .fa-tasks,
 .status__content__read-more-button,
 .column-back-button,
 .column-link--transparent.active,
@@ -55,8 +58,8 @@ img[alt*="blobfox"] {
 }
 
 button.icon-button i.fa-retweet {
-    background-image: url("./assets/boost.svg");
+    background-image: url("https://shamshitty.xyz/bark.lgbt-theme/assets/boost.svg") !important;
 }
 button.icon-button:hover i.fa-retweet {
-    background-image: url("./assets/boost_hover.svg");
+    background-image: url("https://shamshitty.xyz/bark.lgbt-theme/assets/boost_hover.svg") !important;
 }
