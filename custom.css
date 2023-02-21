@@ -1,0 +1,31 @@
+#main {
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    width: 55%;
+    text-align: left;
+}
+
+.headers {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.desc {
+    font-size: 1.5em;
+}
+.desc ul img {
+    width: 20px;
+    cursor: grabbing;
+}
+
+.imgcont {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+.imgcont img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 5px;
+}

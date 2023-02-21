@@ -1,6 +1,8 @@
 # bark.lgbt-theme
 
 a theme for [bark.lgbt](https://bark.lgbt)
+<br>
+if there's anything wrong or there's anything you would like changed, open an issue :)
 
 ### Previews
 
@@ -11,4 +13,4 @@ a theme for [bark.lgbt](https://bark.lgbt)
 ### Installation
 [Stylus](https://userstyles.world/api/style/8675.user.css)
 <br>
-_may need to_ [_install Stylus_](https://github.com/openstyles/stylus) _first_
+_or just copy the css contents and put them into a Stylus theme yourself_
